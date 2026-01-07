@@ -1,9 +1,12 @@
-import About from "./Pages/About";
-import Navbar from "./Layout/Navbar";
-import Home from "./Pages/Home";
+//Layout
 import Footer from "./Layout/Footer";
-import Contact from "./Pages/Contact"
-import Product from "./Pages/Product"
-import Cart from "./Pages/Cart"
+import Navbar from "./Layout/Navbar";
 
-export {About, Contact, Navbar, Home, Footer, Cart, Product }
+//Pages 
+import About from "../Pages/About";
+import Home from "../Pages/Home";
+import Contact from "../Pages/Contact"
+import Products from "../Pages/Products"
+import Cart from "../Pages/Cart"
+
+export {About, Contact, Navbar, Home, Footer, Cart, Products }
